@@ -3,5 +3,8 @@
   "version": "1.0.1",
   "bin": {
     "alexander": "index.js"
+  },
+  "volta": {
+    "node": "12.18.4"
   }
 }
