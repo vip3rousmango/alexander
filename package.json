@@ -1,6 +1,6 @@
 {
   "name": "vip3rousmango",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get to know Al Romano, with `npx vip3rousmango`",
   "bin": {
     "alexander": "index.js"
