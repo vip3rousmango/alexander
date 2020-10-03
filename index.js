@@ -1,11 +1,12 @@
 #!/usr/bin/env node
+
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
 const chalk = require('chalk');
 
 
 welcome({
-  title: pkgJSON.name,
+  title: `Al Romano`,
   version: pkgJSON.version,
   description: pkgJSON.description,
   bgColor: `#FADC00`,
@@ -15,16 +16,13 @@ welcome({
 })
 
 console.log(`
-  NAME: ${pkgJSON.name}
-  VERSION: ${pkgJSON.version}
-  MISSION: ${pkgJSON.tagline}
-
-${chalk.bgBlue.bold(`Al Romano`)}
-
-${chalk.italic(
-  `A "Web Stack" Developer with a knack for web analytics, data visualization and accessable dashboards.
- I'm a firm believer of "user experience first" and HTML First Prototyping approaches when applying best
- practice standards for web development and passonate about includsive development.`
+${chalk.italic(`
+  Front-End Dev with a JAMStack Focus with a knack for web analytics, data visualization and a11y development practices.
+  ---
+  I fell in love with JAM-Stack and have no regrets.
+  ---
+  Dad, Husband, Tech Blogger, Airsoft Fanatic, and I try to Sous Vide everything.
+  `
 )}
 
 ${chalk.hex('#09c').bold.inverse(` Website `)} - ${chalk.dim(`https://virtuallycreative.ca`)}
