@@ -10,5 +10,10 @@
   },
   "dependencies": {
     "cli-welcome": "^2.2.2"
-  }
+  },
+  "keywords": [
+    "al romano",
+    "cli",
+    "alexander romano"
+  ]
 }
