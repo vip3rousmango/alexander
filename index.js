@@ -6,9 +6,9 @@ clearConsole();
 
 console.log(`
 
-Al Romano
+Hi, I'm Al Romano.
 
-Hello! I'm a Web Stack Developer with a knack for web analytics, data visualization and accessable dashboards.
+I'm a Web Stack Developer with a knack for web analytics, data visualization and accessable dashboards.
 I'm a firm believer of "user experience first" and HTML First Prototyping approaches when
 applying best practice standards for web development and passonate about includsive development.
 
