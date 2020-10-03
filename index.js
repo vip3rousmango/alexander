@@ -3,10 +3,11 @@
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
 const chalk = require('chalk');
-const brand = chalk.hex('#09c').bold.inverse;
-const twitterClr = chalk.hex('#1da1f2').bold.inverse;
-const githubClr = chalk.hex('#6cc644').bold.inverse;
-const linkedinClr = chalk.hex('#8d6cab').bold.inverse;
+const brand = hex('#09c').bold.inverse;
+const twitterClr = hex('#1da1f2').bold.inverse;
+const githubClr = hex('#6cc644').bold.inverse;
+const linkedinClr = hex('#8d6cab').bold.inverse;
+const dim = dim;
 
 welcome({
   title: `Al Romano`,
@@ -19,7 +20,7 @@ welcome({
 })
 
 console.log(`
-${chalk.italic(`
+${italic(`
   Front-End Dev with a JAMStack Focus with a knack for web analytics, data visualization and a11y development practices.
   ---
   I fell in love with JAM-Stack and have no regrets.
@@ -28,9 +29,9 @@ ${chalk.italic(`
   `
 )}
 
-${brand(` Website `)} - ${chalk.dim(`https://virtuallycreative.ca`)}
-${twitterClr(` Twitter `)} - ${chalk.dim(`https://twitter.com/vip3rousmango`)}
-${linkedinClr(` LinkedIn `)} - ${chalk.dim(`https://www.linkedin.com/in/alromano/`)}
-${githubClr(` GitHub `)} - ${chalk.dim(`https://github.com/vip3rousmango`)}
+${brand(` Website `)} - ${dim(`https://virtuallycreative.ca`)}
+${twitterClr(` Twitter `)} - ${dim(`https://twitter.com/vip3rousmango`)}
+${linkedinClr(` LinkedIn `)} - ${dim(`https://www.linkedin.com/in/alromano/`)}
+${githubClr(` GitHub `)} - ${dim(`https://github.com/vip3rousmango`)}
 
 `);
