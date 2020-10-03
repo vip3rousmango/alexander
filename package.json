@@ -2,6 +2,7 @@
   "name": "vip3rousmango",
   "version": "1.0.7",
   "description": "Get to know Al Romano, with `npx vip3rousmango`",
+  "tagline": "Dream. Design. Develop. Deliver.",
   "bin": {
     "alexander": "index.js"
   },
@@ -9,6 +10,7 @@
     "node": "12.18.4"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "cli-welcome": "^2.2.2"
   },
   "keywords": [
