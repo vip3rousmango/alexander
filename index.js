@@ -2,6 +2,8 @@
 
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
+
+// Colours
 const chalk = require('chalk');
 const italic = chalk.italic;
 const brand = chalk.hex('#09c').bold.inverse;
@@ -9,6 +11,13 @@ const twitterClr = chalk.hex('#1da1f2').bold.inverse;
 const githubClr = chalk.hex('#6cc644').bold.inverse;
 const linkedinClr = chalk.hex('#8d6cab').bold.inverse;
 const dim = chalk.dim;
+
+// Alerts
+const sym = require('log-symbols');
+const success = chalk.green;
+const error = chalk.red.bold;
+const warning = chalk.keyword('orange');
+const info = chalk.blue;
 
 welcome({
   title: `Al Romano`,
@@ -37,5 +46,11 @@ ${brand(` Website `)} - ${dim(`https://virtuallycreative.ca`)}
 ${twitterClr(` Twitter `)} - ${dim(`https://twitter.com/vip3rousmango`)}
 ${linkedinClr(` LinkedIn `)} - ${dim(`https://www.linkedin.com/in/alromano/`)}
 ${githubClr(` GitHub `)} - ${dim(`https://github.com/vip3rousmango`)}
+`);
 
+console.log(`
+  ${sym.success} ${success(' SUCCESS ->')} Thank you for downloading my CLI.
+  ${sym.warning} ${warning(' WARNING ->')} Currently, I'm not actively persuing clients.
+  ${sym.info} ${info(' INFO ->')} For more info, please don't hesitate to reach out!
+  ${sym.error} ${error(' ERROR ->')} Stay hungry. Be humble.
 `);
