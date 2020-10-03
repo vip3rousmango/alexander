@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+const clearConsole = require('clear-any-console');
+
+// Clear the console :: cross-platform friendly
+clearConsole();
+
 console.log(`
 
 Al Romano
