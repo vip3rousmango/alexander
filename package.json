@@ -15,5 +15,13 @@
     "al romano",
     "cli",
     "alexander romano"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "vip3rousmango/alexander",
+  "author": {
+    "name": "Al Romano",
+    "email": "alexander@virtuallycreative.ca",
+    "url": "https://virtuallycreative.ca"
+  }
 }
