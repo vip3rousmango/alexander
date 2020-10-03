@@ -3,7 +3,10 @@
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
 const chalk = require('chalk');
-
+const brand = chalk.hex('#09c').bold.inverse;
+const twitterClr = chalk.hex('#1da1f2').bold.inverse;
+const githubClr = chalk.hex('#6cc644').bold.inverse;
+const linkedinClr = chalk.hex('#8d6cab').bold.inverse;
 
 welcome({
   title: `Al Romano`,
@@ -25,9 +28,9 @@ ${chalk.italic(`
   `
 )}
 
-${chalk.hex('#09c').bold.inverse(` Website `)} - ${chalk.dim(`https://virtuallycreative.ca`)}
-${chalk.hex('#1da1f2').bold(` Twitter `)} - ${chalk.dim(`https://twitter.com/vip3rousmango`)}
-${chalk.hex('#8d6cab').bold(` LinkedIn `)} - ${chalk.dim(`https://www.linkedin.com/in/alromano/`)}
-${chalk.hex('#6cc644').bold(` GitHub `)} - ${chalk.dim(`https://github.com/vip3rousmango`)}
+${brand(` Website `)} - ${chalk.dim(`https://virtuallycreative.ca`)}
+${twitterClr(` Twitter `)} - ${chalk.dim(`https://twitter.com/vip3rousmango`)}
+${linkedinClr(` LinkedIn `)} - ${chalk.dim(`https://www.linkedin.com/in/alromano/`)}
+${githubClr(` GitHub `)} - ${chalk.dim(`https://github.com/vip3rousmango`)}
 
 `);
