@@ -1,6 +1,7 @@
 {
   "name": "vip3rousmango",
   "version": "1.0.3",
+  "description": "Get to know Al Romano, with `npx vip3rousmango`",
   "bin": {
     "alexander": "index.js"
   },
@@ -8,6 +9,6 @@
     "node": "12.18.4"
   },
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "cli-welcome": "^2.2.2"
   }
 }
