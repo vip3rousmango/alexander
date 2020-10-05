@@ -1,6 +1,6 @@
 # `npx vip3rousmango`
 
-> Learn more about Al Romano using `npx vip3rousmango` in your command line..
+> Learn more about me (Al Romano) using `npx vip3rousmango` in your command line..
 
 ## Getting Started
 
