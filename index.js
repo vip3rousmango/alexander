@@ -41,13 +41,14 @@ console.log(`${italic(`
 ${brand(` Punchline `)} -> ${npxCMD(`npx @vip3rousmango/punchline`)} -> ${dim(`https://github.com/vip3rousmango/punchline`)}
 
 :: URLS ::
-${brand(` Website `)} - ${dim(`https://virtuallycreative.ca`)}
+${brand(` Freelance Website `)} - ${dim(`https://virtuallycreative.ca`)}
+${brand(` Blog `)} - ${dim(`https://hash.virtuallycreative.ca`)}
 
 :: SOCIAL ::
 ${twitterClr(` Twitter `)} - ${dim(`https://twitter.com/vip3rousmango`)}
 ${linkedinClr(` LinkedIn `)} - ${dim(`https://www.linkedin.com/in/alromano/`)}
 ${githubClr(` GitHub `)} - ${dim(`https://github.com/vip3rousmango`)}
 
-${sym.success} ${success(' SUCCESS ->')} Thank you for downloading my CLI.
+${sym.success} ${success(' SUCCESS ->')} Thank you for downloading my CLI!
 ${sym.info} ${info(' INFO -> ')} Stay hungry. Be humble.
 `);
