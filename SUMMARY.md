@@ -1,3 +1,3 @@
 # Table of contents
 
-* [npx vip3rousmango](README.md)
+* [Page 1](README.md)
