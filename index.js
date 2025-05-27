@@ -31,8 +31,8 @@ welcome({
 })
 
 console.log(`${italic(`
-  Front-End Dev with a JAMStack Focus with a knack for web analytics, data visualization and a11y development practices.
-  Started with the LAMP-stack, but fell in love with JAM-Stack and haven't looked back since.
+  Front-End Dev with 15 years experience with WordPress, Front-End Accessibility but now it's all Ai, agents, RAG and automations. Moving data from one system to the next.
+  I love to build tools that help people do their jobs better, faster, and more efficiently. I also love to automate everything I can.
   Dad, Husband, Tech Blogger, Airsoft Fanatic, and I try to Sous Vide everything.
   `
 )}
